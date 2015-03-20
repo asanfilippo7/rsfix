@@ -1,0 +1,793 @@
+<!DOCTYPE html>
+
+<html>
+<script language="javascript" type="text/javascript">
+function showHide(shID) {
+   if (document.getElementById(shID)) {
+      if (document.getElementById(shID+'-show').style.display != 'none') {
+         document.getElementById(shID+'-show').style.display = 'none';
+         document.getElementById(shID).style.display = 'block';
+      }
+      else {
+         document.getElementById(shID+'-show').style.display = 'inline';
+         document.getElementById(shID).style.display = 'none';
+      }
+   }
+}
+</script>
+<style type="text/css">
+
+<style type="text/css" scoped>
+
+html { overflow-y: scroll; }
+
+br { display: block; line-height: 1.6em; }
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { display: block; }
+
+ol, ul { list-style: none; }
+
+input, textarea {
+
+-webkit-font-smoothing: antialiased;
+
+-webkit-text-size-adjust: 100%;
+
+-ms-text-size-adjust: 100%;
+
+-webkit-box-sizing: border-box;
+
+-moz-box-sizing: border-box;
+
+box-sizing: border-box;
+
+outline: none;
+
+}
+
+blockquote, q { quotes: none; }
+
+blockquote:before, blockquote:after, q:before, q:after { content: ''; content: none; }
+
+table { border-collapse: collapse; border-spacing: 0; }
+
+img { border: 0; max-width: 100%; }
+
+/** page structure **/
+
+#wrapper {
+
+display: block;
+
+max-width: 900px;
+
+margin: 0 auto;
+
+padding: 0 15px;
+
+}
+
+#photo {
+
+display: block;
+
+text-align: center;
+
+margin-bottom: 20px;
+
+}
+
+#main-sidebar{
+
+display:none;
+
+}
+
+#photo img {
+
+width: 250px;
+
+height: 250px;
+
+border-radius: 125px;
+
+border: 5px solid #fff;
+
+box-shadow: 2px 0 7px #aaa;
+
+}
+
+.media{
+
+display:none;
+
+}
+
+.info-box{
+
+display:none;
+
+}
+
+.half hairline{
+
+display:none;
+
+}
+
+.bigtext {
+
+display: block;
+
+overflow: hidden;
+
+color: #787878;
+
+}
+
+hr {
+
+display:none;
+
+}
+
+/*.expand, .contract {
+
+cursor: pointer;
+
+font-weight: normal;
+
+padding: 15px 0;
+
+text-align: left;
+
+color: #555;
+
+}
+
+.expand:hover, .contract:hover {
+
+color: #121212;
+
+}
+
+.hide {
+
+display: none;
+
+}
+
+.unit{
+
+float:left;
+
+}
+
+.half-hairline{
+
+display:none;
+
+}
+
+.double hairline{
+
+display:none;
+
+}
+
+.well{
+
+display:none;
+
+}*/
+
+.more {
+      display: none;
+      /*border-top: 1px solid #666;
+      border-bottom: 1px solid #666;*/ }
+   a.showLink, a.hideLink {
+      text-decoration: none;
+      /*color: #36f;*/
+      padding-left: 8px;
+      background: transparent url(down.gif) no-repeat left; }
+   a.hideLink {
+      background: transparent url(up.gif) no-repeat left; }
+   a.showLink:hover, a.hideLink:hover {
+      /*border-bottom: 1px dotted #36f*/; }
+
+</style>
+
+<body>
+
+
+<div class="span13"><div class="span5"><p id="photo">
+
+<img src="https://s3.amazonaws.com/media.cav/9584_tsullyp.jpg" alt="Teresa Sullivan" /></p><p>
+
+FROM: University President Teresa Sullivan</p><p>
+
+TIME: Wednesday, Nov. 19 at 6:17 p.m..</p><p>
+
+To the University community: I am writing in response to a Rolling Stone magazine article that negatively depicts the University of Virginia and its handling of sexual misconduct cases. Because of federal and state privacy laws, and out of respect for sexual assault survivors, we are very limited in what we can say about any of the cases mentioned in this article.</p>
+
+<a href="#" id="example-show" class="showLink" onclick="showHide('example');return false;"><strong>Click to Read More</strong></a></p>
+
+<div id="example" class="more">
+<p>The article describes an alleged sexual assault of a female student at a fraternity house in September 2012, including many details that were previously not disclosed to University officials. I have asked the Charlottesville Police Department to formally investigate this incident, and the University will cooperate fully with the investigation.</p>
+
+
+<p>The University takes seriously the issue of sexual misconduct, a significant problem that colleges and universities are grappling with across the nation. Our goal is to provide an environment that is as safe as possible for our students and the entire University community.</p>
+
+
+<p>We have recently adopted several new initiatives and policies aimed at fostering a culture of reporting and raising awareness of the issues.</p>
+
+<p>We want our students to feel comfortable coming forward with information when there are problems in the community and cooperating with local law enforcement and the student disciplinary process. We also want them to feel empowered to take action and to lead efforts to make our Grounds and our community a better place to live and learn.</p>
+
+
+<p>We have been taking a leadership role on issues regarding sexual misconduct and violence. U.Va. hosted a national conference on this topic in February 2014. "Dialogue at U.Va.: Sexual Misconduct Among College Students" brought together national experts and professionals from approximately 60 colleges and universities to discuss best practices and strategies for prevention and response.</p>
+
+<p>The HoosGotYourBack initiative, part of the Not On Our Grounds awareness campaign, was developed and launched in collaboration with students and with local Corner Merchants to increase active bystander behavior.</p>
+
+<p>A number of other initiatives are also planned for the spring. Among them are the implementation of a new student sexual misconduct policy and a related training program, a campus climate survey, and an in-depth bystander intervention program that will include students, faculty, and staff.</p>
+
+<p>More information about sexual violence education and resources is available on the University's website at
+
+<a href="http://www.virginia.edu/sexualviolence/">http://www.virginia.edu/sexualviolence/</a>
+
+<p>Finally, I want to underscore our commitment to marshaling all available resources to assist our students who confront issues related to sexual misconduct. Our dedicated Student Affairs staff devote countless hours to educating and counseling our students on issues regarding their health and safety, and they stand ready to assist whenever students need help.</p>
+
+<p>Teresa A. Sullivan</p>
+
+<p>President</p>
+
+<p><a href="#" id="example-hide" class="hideLink" onclick="showHide('example');return false;"><strong>Click to hide content.</strong></a></p>
+      </div>
+  </div>
+
+<div class="span5"><p id="photo">
+
+<img src="https://s3.amazonaws.com/media.cav/9719_patlamkinf.jpg" alt="Patricia Lampkin, Vice President for Student Affairs" /></p><p id="content"></p><p class="bigtext"></p><p>
+
+FROM: Patricia Lampkin, Vice President for Student Affairs</p><p>
+
+Dear Students:</p>
+
+<p>Over the past two days, our community has been deeply affected by the article that appeared in Rolling Stone magazine earlier this week. I know that many of you are feeling shocked, dismayed, saddened and, perhaps, betrayed. Our community is hurting. We are concerned about Jackie and we are worried about other survivors who have lived through the horror of sexual assault. Many of us are confused by the contradictions between the U.Va. portrayed in the article and the U.Va. that we know. Many of you are questioning your trust in our University.</p><a href="#" id="example1-show" class="showLink" onclick="showHide('example1');return false;"><strong>Click to Read More</strong></a></p>
+
+<div id="example1" class="more">
+
+<p>President Sullivan and I want to be absolutely clear: we do not tolerate sexual violence in any form. Sexual assault is a crime that can destroy lives and create profound suffering. It has no place in our society, much less in an academic community characterized by freedom and civility.</p>
+
+
+<p>To add to these overwhelming emotions, we learned late yesterday of the death of a second-year student, the details of which we will share according to his family's wishes as soon as we are able.</p>
+
+
+<p>This painful set of circumstances comes on the heels of other recent tragedies on Grounds. The constellation of these events would be enough to put the strongest of communities into crisis. But know that we will cope, and together we will heal.</p>
+
+
+<p>We acknowledge how difficult it is for survivors of sexual assault to talk about their experiences and to feel confident in reporting them, whether to the police or to the University. We will continue, as we always have, to encourage survivors to go to the police, to pursue the University's disciplinary process, and most of all, to take advantage of the many support services available at UVA and in the community. (Please see the end of this message for a list of resources.)</p>
+
+
+<p>This is a time for us to come together, not to be pulled apart. I hope that we as a community can address this issue in a spirit of deep compassion, concern, trust and resolution.</p>
+
+
+<p>Sincerely,</p>
+
+
+<p>Patricia M. Lampkin</p>
+
+<p>Vice President and Chief Student Affairs Officer</p>
+
+<p><a href="#" id="example1-hide" class="hideLink" onclick="showHide('example1');return false;"><strong>Click to hide content.</strong></a></p>
+      </div></div>
+
+<div class="span5"><p id="photo">
+
+<img src="https://s3.amazonaws.com/media.cav/9586_phipsio.jpg" alt="Phi Psi UVA" /></p><p id="content"></p><p class="bigtext"></p><p>
+
+FROM: Phi Kappa Psi Fraternity, University of Virginia Chapter</p><p>
+
+TIME: Thursday, Nov. 20 at 2:08 p.m.</p><p>
+
+Although at this time we have no specific knowledge of the claims set out in the Rolling Stone Article, we take this matter &mdash; and these tragic allegations &mdash; very seriously.</p>
+<a href="#" id="example2-show" class="showLink" onclick="showHide('example2');return false;"><strong>Click to Read More</strong></a></p>
+
+<div id="example2" class="more">
+
+<p>That is why after being notified by the University of allegations following their informal investigation in late September, we subsequently notified our alumni chapter advisor and housing corporation. Through these representatives, local law enforcement was notified within days. This is a serious matter for the criminal justice system and the university investigative process and we will cooperate quickly, openly and honestly in any forthcoming investigation that may be conducted. To that end, as of today we have voluntarily surrendered our Fraternal Organization Agreement with the University, thereby suspending all chapter activities during this process. Make no mistake, the acts depicted in the article are beyond unacceptable &mdash; they are vile and intolerable in our brotherhood, our university community and our society. We remain ready and willing to assist with the fair and swift pursuit of justice, wherever that may lead, and steadfast in our resolve to ensure that nothing like this can happen, ever on our Grounds.</p>
+
+
+<p>Sincerely,</p>
+
+<p>Phi Kappa Psi, Virginia Alpha Chapter</p>
+
+
+<p><a href="#" id="example2-hide" class="hideLink" onclick="showHide('example2');return false;"><strong>Click to hide content.</strong></a></p>
+      </div></div>
+
+<div class="span5"><p id="photo">
+
+<img src="https://s3.amazonaws.com/media.cav/9582_phipsinationalo.jpg" alt="Phi Psi Nationals" /></p><p id="content"></p><p class="bigtext"></p><p>
+
+FROM: Phi Kappa Psi, National Fraternity Organization</p><p>
+
+TIME: Wednesday, Nov. 19</p><p>
+
+INDIANAPOLIS, IN - The Phi Kappa Psi Fraternity was recently made aware of a story in Rolling Stone magazine that contains sexual assault allegations against the University of Virginia chapter.</p><!-- <p dir="ltr" style="line-height:1;margin-top:0pt;margin-bottom:0pt;">
+ -->
+<!-- more here --><!-- </p> --><a href="#" id="example3-show" class="showLink" onclick="showHide('example3');return false;"><strong>Click to Read More</strong></a></p>
+
+<div id="example3" class="more">
+
+<p>We take this matter - and these allegations - very seriously.<p>
+
+
+<p>First and foremost, we do not condone violence under any circumstances; gender-based and sexual violence is particularly heinous. It is antithetical to the morals and founding principles of our Fraternity, and we condemn it unequivocally. We remain actively and aggressively committed to ending these inexcusable forms of violence not only in the Greek community, but across all campus communities at large.<p>
+
+
+<p>As distressing as these allegations are to us, we recognize that the personal stress and anxiety experienced by any survivor of an assault dwarfs our own.<p>
+
+
+<p>No exceptions. No excuses.<p>
+
+
+<p>While this article addresses a serious challenge to all college communities, it is important to note that to our knowledge there have been no criminal investigations or charges of sexual assault brought against any member of the chapter. Furthermore, no detailed information regarding this story or investigation had been shared with us beyond the scope of the article once released. The University of Virginia chapter leadership and National Fraternity have been, and will continue to be cooperative, open, and honest in any forthcoming investigation that may be conducted by law enforcement agencies. Additionally, Phi Kappa Psi will fully cooperate with the administration of the University of Virginia in identifying and immediately eradicating any alleged or proven misconduct. Finally, Phi Kappa Psi has also launched its own independent investigation intended to determine the facts surrounding these allegations.<p>
+
+<p>We are committed - above all else - to accountability with regard to these serious matters.<p>
+
+<p>In line with our zero tolerance commitment, the national organization and the Virginia chapter have organized and engaged in myriad of educational meetings with various UVA officials, Aaron Bowe, a nationally-known speaker on sexual assault prevention, and the student-led organization "One in Four," to have serious and substantive discussions about sexual assault prevention and bystander education strategies. Our members have also taken the "It's on Us" pledge, a nationally renowned initiative to promote awareness and prevention of sexual assault.<p>
+
+<p>In the interim, we encourage any and all that have any information regarding these allegations, to contact the University of Virginia Police Department at (434) 924-7166 (tel:%28434%29%20924-7166) or Charlottesville Police Department at (434) 970-3280 (tel:%28434%29%20970-3280).<p>
+
+
+<p><a href="#" id="example3-hide" class="hideLink" onclick="showHide('example3');return false;"><strong>Click to hide content.</strong></a></p>
+      </div></div>
+
+<div class="span5"><p id="photo">
+
+<img src="https://s3.amazonaws.com/media.cav/9585_georgemartino.jpg" alt="Rector George Martin" /></p><p id="content"></p><p class="bigtext"></p><p>
+
+FROM: Rector George Martin</p><p>
+
+TIME: Thursday, Nov. 20 at 7:56 p.m.</p><p>
+
+Dear Members of the University Community:</p><p>
+
+We are deeply saddened and disturbed by the events reported in the recent Rolling Stone magazine article. Conduct of the sort described in the article is utterly unacceptable and will not be condoned at the University of Virginia.</p><a href="#" id="example4-show" class="showLink" onclick="showHide('example4');return false;"><strong>Click to Read More</strong></a></p>
+
+<div id="example4" class="more">
+
+<p>Our focus continues to be, first and foremost, the safety and well-being of our students and of the University community as a whole. Sexual assault is an abhorrent violent crime, and it should be punished as a crime under applicable law.</p>
+
+<p>On Wednesday, the President referred the specific allegations of criminal conduct contained in the Rolling Stone article to the Charlottesville Police Department. Many of the details contained in the article had not previously been disclosed to University officials. Fairness to all potentially affected persons, as well as privacy obligations and the rights of sexual assault survivors, necessitates that we refrain from comment on those specific allegations while law enforcement authorities carry out their work. We need not wait, however, to seek independent advice on some of the difficult issues raised by this case, and by sexual assault cases nationwide, in order to better protect our students and the University community.</p>
+
+<p>As President Sullivan described yesterday, the University and University community have taken the initiative to address sexual misconduct in various ways. Earlier this year, before much of the current media attention was focused on the issue, President Sullivan convened a national conference that brought together experts and professionals from approximately 60 colleges and universities to discuss best practices and strategies for prevention and response. A number of other initiatives, including the HoosGotYourBack program and Not On Our Grounds awareness campaign, are underway or soon will commence.</p>
+
+<p>In addition to these measures, we must do everything possible to ensure that the opportunity for a timely and appropriate law enforcement response is maximized, and that the University community is fully protected from future violence, even in situations where a sexual assault survivor chooses not to lodge a criminal or administrative complaint.</p>
+
+<p>The issue of how to respond-lawfully, appropriately, and effectively-to credible information regarding alleged sexual assault in circumstances where the survivor declines to file a criminal or administrative complaint is a pressing and difficult national topic. Even if, as the Rolling Stone article asserts, the problem of sexual misconduct at other colleges and universities is comparable to that at the University of Virginia, the status quo is unacceptable, and the University of Virginia should be a leader in finding solutions.</p>
+
+<p>Accordingly, and with the full support of President Sullivan, I contacted Virginia Attorney General Mark Herring and requested that, in addition to receiving the continued able assistance by his Office, the University be authorized to engage independent counsel to advise and assist the Board of Visitors and University administration in determining how the University can better deal with the issue of campus sexual assaults, including how best to maximize opportunities for successful criminal prosecution of sexual misconduct cases. The counsel will examine the relevant legal issues as well as the University's policies and processes, giving particular attention to the question of how to respond in situations where there is serious and credible information about sexual misconduct but no willing complainant. The counsel will share his findings and recommendations with the Board of Visitors, President Sullivan and the Attorney General.</p>
+
+<p>General Herring and I have agreed that Mark Filip, a senior partner with the distinguished firm of Kirkland and Ellis, should lead this review. Mr. Filip is a former prosecutor, federal judge and deputy attorney general of the United States.</p>
+
+<p>Again, this is a critical issue and we are committed to finding solutions.</p>
+
+<p>Sincerely,</p>
+
+<p>George Keith Martin</p>
+
+<p>Rector</p>
+
+
+<p><a href="#" id="example4-hide" class="hideLink" onclick="showHide('example4');return false;"><strong>Click to hide content.</strong></a></p>
+      </div></div>
+
+<div class="span5"><p id="photo">
+
+<img src="https://s3.amazonaws.com/media.cav/9580_mcauliffeo.jpg" alt="Governor Terry MacCauliff" /></p><p id="content"></p><p class="bigtext"></p><p>
+
+FROM: Gov. Terry McAuliffe</p><p>
+
+TIME: Thursday, Nov. 20 at 2:11 p.m.</p><p>
+
+I was deeply disturbed to read about the sexual assault allegations outlined in Rolling Stone magazine. Sexual violence is a nationwide problem, and it is critical that our schools acknowledge that this is a pervasive issue and take bold action to end it.</p><a href="#" id="example5-show" class="showLink" onclick="showHide('example5');return false;"><strong>Click to Read More</strong></a></p>
+
+<div id="example5" class="more">
+
+<p>Earlier today, I spoke to the university leadership and conveyed my deep concerns with what has been reported. We are in agreement that a full and fair investigation must be pursued, and I have called for a zero tolerance strategy to combat campus sexual assault. I have asked university officials to conduct a full review of all of their policies and procedures and if decided, to bring in outside experts to assist in this effort.</p>
+
+<p>We must also find ways that our local law enforcement and prosecution efforts can better align with university actions. Earlier this year, I signed Executive Order 25 establishing the Governor’s Task Force on Combating Campus Sexual Violence, sending a message that Virginia will not tolerate sexual violence on our campuses or in our communities. Now is the time to act &mdash; we must ensure that survivors are treated with the dignity and respect they deserve, and we must do more to hold perpetrators accountable.</p>
+
+
+<p>As the parents of five children, this is an issue Dorothy and I care deeply about. I look forward to seeing strong recommendations from the task force that will help keep more Virginians safe and ensure that our students are free from the threat of sexual violence.</p>
+
+
+<p><a href="#" id="example5-hide" class="hideLink" onclick="showHide('example5');return false;"><strong>Click to hide content.</strong></a></p>
+      </div></div>
+
+<div class="span5"><p id="photo">
+
+<img src="https://s3.amazonaws.com/media.cav/9721_tim_kaineo.jpg" alt="Senator Tim Kaine" /></p><p id="content"></p><p class="bigtext"></p><p>
+
+FROM: Sen. Tim Kaine</p><p>
+
+The allegations of sexual assault depicted in a recent Rolling Stone article are beyond alarming and cannot be tolerated. If the law enforcement and school investigations into these allegations are found to be true, the individuals and organizations involved should be prosecuted to the fullest extent of the law.</p><a href="#" id="example6-show" class="showLink" onclick="showHide('example6');return false;"><strong>Click to Read More</strong></a></p>
+
+<div id="example6" class="more">
+
+<p>In addition to a comprehensive review of its policies and procedures, I’m pleased to see the University of Virginia will engage independent counsel on how it can maximize opportunities for successful criminal prosecution of sexual misconduct cases. The Virginia Alpha Chapter of the Phi Kappa Psi Fraternity also took the right step yesterday by surrendering its agreement with the University and suspending all chapter activities. These allegations demand tough action that will give students and parents confidence that the University is a safe environment and that perpetrators of such acts will be held accountable. Sexual violence is a serious problem that schools and communities across the country continue to face. I will continue to do everything I can at the federal level to combat this epidemic.</p>
+
+
+<p><a href="#" id="example6-hide" class="hideLink" onclick="showHide('example6');return false;"><strong>Click to hide content.</strong></a></p>
+      </div></div>
+
+<div class="span5"><p id="photo">
+
+<img src="https://s3.amazonaws.com/media.cav/9720_uvalogof.jpg" alt="StudCo" /></p><p id="content"></p><p class="bigtext"></p><p>
+
+FROM: Student Council</p><p>
+
+Fellow Students,</p><p>
+
+This week, the core of who we are has been challenged. We are now questioning if we truly stand for honor and mutual trust. We wonder if we are truly the caring, supportive community that we purport to be. And we are hurting.</p><p><a href="#" id="example7-show" class="showLink" onclick="showHide('example7');return false;"><strong>Click to Read More</strong></a></p>
+
+<div id="example7" class="more">
+
+<p>This week threatens to drive us apart. But this is not the time to splinter. Amid the shaking reality of a trying semester, made all the more tragic as we lost another classmate yesterday, this is the time to redouble our commitment to our principles. We must not only speak them - we must live them. And we've already begun. The outpouring of support from family and friends - even strangers - proves this community is strong. The swift, passionate calls for action prove that we care about our community of trust and that we're more dedicated than ever to shaping our own University.</p>
+
+<p>But strong, honorable, loving, engaged communities recognize that even they have problems. This week, we've been startlingly reminded that sexual assault is a problem of ours. It's our moral obligation as friends, classmates, and people to end it. Now.</p>
+
+<p>Today, we call on one another to make this University the safe haven it ought to be. Take a minute to learn more, to become an advocate, or to voice your opinions. Take a moment to tell your story, or to support a survivor with loving strength. Take a second to step in when something looks wrong, to start a discussion, or to attend a prevention event. Doing nothing is to be part of the problem. And we need to be part of the solution.</p>
+
+
+<p><a href="#" id="example7-hide" class="hideLink" onclick="showHide('example7');return false;"><strong>Click to hide content.</strong></a></p>
+      </div></div>
+
+<div class="span5"><p id="photo">
+
+<img src="https://s3.amazonaws.com/media.cav/9583_ifco.jpg" alt="IFC" /></p><p id="content"></p><p class="bigtext"></p><p>
+
+FROM: Inter-Fraternity Council</p><p>
+
+TIME: Thursday, Nov. 20 at 3 p.m.</p><p>
+
+<br />
+
+As students, as Greek men, and above all as human beings, we on the Inter-Fraternity Council are horrified, disgusted, and viscerally saddened by the stories of sexual violence shared in the Rolling Stone article released yesterday, November 19.</p><p><a href="#" id="example8-show" class="showLink" onclick="showHide('example8');return false;"><strong>Click to Read More</strong></a></p>
+
+<div id="example8" class="more">
+
+<p>That some fraternity men commit sexual assault is irreconcilable with everything we hope our community to be, and we are mortified that any fraternity member is responsible for perpetrating such a heinous crime.</p>
+
+<p>The members of the Inter-Fraternity Council are united in our admiration of the survivors who courageously shared their experiences with sexual violence in the article. We cannot begin to comprehend the emotional and physical trauma the survivors have experienced and recognize that stories like these occur far too frequently on college campuses, including our own. We hope that this jarring account will spark reflection and discussion about the gender norms, power structures, and issues of sexual violence that exist both on our grounds and at universities across the nation.</p>
+
+<p>In times like these, we understand that claims of effort and gradual progress seem trite and inconsequential. The IFC, nonetheless, is committed to educating our members about sexual violence and promoting bystander intervention within our chapters. Through collaboration with student peer advocacy groups and the Office of the Dean of Students, we have instituted bystander intervention programs and sexual misconduct education initiatives. Over the past year, these educational programs have become compulsory for every member of an IFC fraternity. We recognize that our efforts, while substantial, are incomplete and we will continue to make the elimination of sexual violence our utmost priority.</p>
+
+<p>This past September, an IFC officer was interviewed by Rolling Stone regarding the culture of sexual violence at the University. Although the discussion was lengthy, the reporter elected not to include any of the information from the interview in her article. The following month, Phi Kappa Psi made the IFC aware that the feature would pertain to events specific to their chapter. Pursuant to Title IX, as a student organization unequipped and untrained in such an arena, the IFC is not permitted to investigate or adjudicate acts of sexual violence. Any properly thorough investigation regarding issues of sexual misconduct must be conducted by University administration or law enforcement. The IFC will continue to assist and cooperate fully with the Office of the Dean of Students and the Charlottesville Police Department.</p>
+
+<p>The IFC and the entire University community are grateful to the survivors who shared their stories and highlighted the need for a change in culture on our grounds. We encourage students to read the article in its entirety so as to foster a sensitive, educated, and productive dialogue on how to eliminate sexual assault at UVa. As men, but most of all as a community, we recognize that we have the ability and the responsibility to relentlessly pursue a solution. It is imperative that we stand together now and decide that rape can never happen again in our community.</p>
+
+<p>SIGNED</p>
+
+<p>The Governing Board of the Inter-Fraternity Council at UVa</p>
+
+
+
+<p><a href="#" id="example8-hide" class="hideLink" onclick="showHide('example8');return false;"><strong>Click to hide content.</strong></a></p>
+      </div></div>
+
+<div class="span5"><p id="photo">
+
+<img src="https://s3.amazonaws.com/media.cav/9589_1924806_734396883272105_7116482888161554430_no.jpg" alt="ISC" /></p><p id="content"></p><p class="bigtext"></p><p>
+
+FROM: Inter-Sorority Council at U.Va.</p><p>
+
+TIME: Email sent Thursday, Nov. 20 to all sorority women at the University</p><p>
+
+Dear members of the Inter-Sorority Council Community,</p><p>
+
+I am writing to you to discuss our role as a community in the coming days, but also in a more long term perspective. As many of you know, Rolling Stone came out with an article today that focuses on sexual assault at UVA. While it does not directly mention the ISC, this article and its implications affect all of us, as members of the Greek Community, as students at UVA, and as young women. No matter the response to the article, the ISC always has, and will, stand firm in our support of survivors, whether or not they are members of a sorority.&nbsp;</p><p><a href="#" id="example9-show" class="showLink" onclick="showHide('example9');return false;"><strong>Click to Read More</strong></a></p>
+
+<div id="example9" class="more">
+
+<p>If you, a friend, a sister, a classmate, or a roommate is confided in by someone who has survived any kind of sexual assault, it is key that you are equipped with the best resources and most supportive responses.</p>
+
+
+<p>Here is an info-graphic full of useful information, including how to best give support to a survivor.</p>
+
+<a href="http://www.virginia.edu/sexualviolence/documents/SexualMisconduct.pdf">http://www.virginia.edu/sexualviolence/documents/SexualMisconduct.pdf</a>
+
+
+<p>The Sexual Assault Resource Agency (SARA) provides services, free of charge, to any survivor</p>
+
+<a href="http://saracville.org/">http://saracville.org/</a>
+
+<p>For advice and counseling, reach out to Counseling and Psychological Services <a href="http://www.virginia.edu/studenthealth/caps.html">http://www.virginia.edu/studenthealth/caps.html</a>
+
+<p>To speak anonymously with a trained UVA student, call the Madison House HelpLine <a href="http://www.madisonhouse.org/helpline/">http://www.madisonhouse.org/helpline/</a> (434) 295-8255 (tel:%28434%29%20295-8255)</p>
+
+<p>Here is a link of other relevant resources</p>
+
+<a href="http://www.virginia.edu/sexualviolence/communityresources.html">http://www.virginia.edu/sexualviolence/communityresources.html</a>
+
+
+<p>For more information, reach out to One Less, which helps survivors understand the resources for justice and healing available at UVA and in the Charlottesville Community. For more information, please reach out to Karina Carlson (kzc5ac@virginia.edu) and Staige Davis (sed9de@virginia.edu)</p>
+
+<p>At the minimum, I urge all of you to read over the attached document which outlines the best way to help a survivor. The first person a survivor reaches out to has the potential to shape the survivor's experience and promote healing.</p>
+
+<p>One of the five pillars of the ISC is Support, and I strongly believe this is a major component of our sorority and ISC experience. Be active bystanders. Look out for each other. If you see something that looks off, or if someone looks uncomfortable, don't be afraid to say something. If you don't want to directly intervene, serve as a distraction in the situation. You can make a powerful difference.</p>
+
+<p>As we look towards this weekend, please be thoughtful of potentially risky behaviors. Tradition is one of the many things that makes UVA such a unique and special place. The Greek community, in particular, greatly values the importance of tradition. However, the practice of the Fourth Year Fifth should be reevaluated due to its harmful effects. This instance, where students choose to drink a fifth of liquor before the last home football game of the season, can be dangerous for anyone, no matter what your perceived tolerance is. Please also keep in mind the 7pm start time (and subsequent late end time) of the game. It will get dark early and very cold, so make sure to watch out for each other and have a plan of how you and your friends are getting home.</p>
+
+<p>I encourage you all to participate in ADAPT's events on Saturday, and I hope you all will join me in signing the pledge to not partake in risky behavior (http://gordiecenter.studenthealth.virginia.edu/pre-game). A great event to consider on Saturday is the 4th Year 5K, a walk/run that benefits the Leslie Baltz Foundation, sponsored by Peer Health Educators. Leslie Baltz was a UVA student, who lost her life while trying to attempt the 4th Year Fifth. On the last home game of the season, she had too much to drink and was put to bed by her friends before the game, and she passed away from accidental injury while alone. The 4th Year 5K's focus this year is a pledge to watch after each other, particularly in terms of health and safety.</p>
+
+<p>I am thankful every day to be a part of such a strong community of intelligent, thoughtful, fearless women. You all have the power to make a difference in terms of mindset and safety, and I believe this can best start here in our own council. Take time to plan, have a keen eye for uncomfortable situations around you, and feel empowered to step in if you see someone in need.</p>
+
+<p>Please feel free to text, call, or email me. Also, please reach out to the ISC's Women's Concerns Chair, Katie Wilson (kpw8zd@virginia.edu). I hope you all will represent the ISC and walk with us on Saturday morning.</p>
+
+<p>Best,</p>
+
+<p>Julia Pedrick</p>
+
+<p>Inter-Sorority Council President
+
+
+<p><a href="#" id="example9-hide" class="hideLink" onclick="showHide('example9');return false;"><strong>Click to hide content.</strong></a></p>
+      </div></div>
+
+<div class="span5"><p id="photo">
+
+<img src="https://s3.amazonaws.com/media.cav/9724_honorf.jpg" alt="Honor Committee" /></p><p id="content"></p><p class="bigtext"></p><p>
+
+FROM: Honor Committee</p><p>
+
+Sexual assault is an appalling crime and a fundamental violation of the community of trust that our Honor System seeks to uphold. Last week’s Rolling Stone article has tragically reminded us that this community is not always the safe, trusting, and caring place we envision. Our trust has been shaken, and we, your classmates, are angry.
+
+<a href="https://docs.google.com/a/virginia.edu/forms/d/1eFfqBBzK5YwoR_kOltSxXulNcCMkxuas45TLcuoJ6sQ/edit" target="_blank">Please visit this form to share your thoughts with the Honor Committee</a></p><p dir="ltr" style="line-height:1;margin-top:0pt;margin-bottom:0pt;"></p><p><a href="#" id="example10-show" class="showLink" onclick="showHide('example10');return false;"><strong>Click to Read More</strong></a></p>
+
+<div id="example10" class="more">
+
+<p>We are angry that we attend a school where members of our community assault others. We are angry that many perpetrators continue to walk among us. And we are angry with ourselves––angry that we, as the Honor Committee, have failed to address the crimes that most egregiously violate our community. Impassioned for our friends and peers, we all seek opportunities to channel our anger toward facilitating justice for survivors.</p>
+
+
+<p>The complicated intersection of Title IX and due process legally prevents the Honor Committee from taking part in the adjudication of sexual assault. As a student-run system with the highest possible standard of proof, the Honor System cannot fulfill all federal requirements for hearing cases of sexual misconduct. While we are prohibited from adjudicating these cases, that is no excuse for inaction. The Honor Committee is wholly dedicated to encouraging advocacy, supporting survivors, and fostering a community that we can be proud to call our own.</p>
+
+
+<p>To that end, the Honor Committee and its support officers will train in comprehensive violence prevention strategies through the University’s new Green Dot program, a program that can produce necessary cultural change at our University. We urge other student organizations to join us and do the same. Starting now, the Honor Committee will also strive to support student advocacy across Grounds and further promote discussion about the ideal of honor as it relates to sexual assault. The Honor Committee seeks your guidance as we continue to explore our role in this cause. Please visit the form at the top and let us know what we can do better, and how we can more adequately address this tragic issue. We acknowledge that the Honor Committee cannot directly adjudicate the cases at hand, but we will––and must––continue to work with the community toward a safer University.</p>
+
+
+<p>No matter the constraints of federal legislation or personal feelings about Honor Committee policies, we must remain united in our pursuit of the highest standards of trust, integrity, and accountability in our University. The community of trust belongs to all of us, and change within a community begins with the individual. Institutional or administrative change cannot occur overnight––but personal change can. In each moment, honor is not about adjudication or trials; it is about always doing what is right. It is about always looking after one another. Sexual assault is a repugnant affront to our community, and we know that each of our individual actions is key in eliminating it and creating the University we desire. We must do more.</p>
+
+
+<p><a href="#" id="example10-hide" class="hideLink" onclick="showHide('example10');return false;"><strong>Click to hide content.</strong></a></p>
+      </div></div>
+
+<div class="span5"><p id="photo">
+
+<img src="https://s3.amazonaws.com/media.cav/9590_oneinfouro.png" alt="1 in 4" /></p><p id="content"></p><p class="bigtext"></p><p>
+
+FROM: 1 in 4 at U.Va.</p><p>
+
+TIME: Wednesday, Nov. 19 at 11 p.m.</p><p>
+
+To the University community and beyond,</p><p>
+
+Rape and sexual assault are terrible crimes. Unfortunately, these acts are committed every day throughout our community, the nation, and the world.&nbsp;</p><p><a href="#" id="example11-show" class="showLink" onclick="showHide('example11');return false;"><strong>Click to Read More</strong></a></p>
+
+<div id="example11" class="more">
+
+<p>Today's article shines a spotlight on the horrible experiences a survivor goes through and also addresses failures and shortfalls in our methods of prevention, the ways we seek justice, and most importantly, how we help survivors.</p>
+
+<p>The story in the article presents us with a serious challenge: how do we as a community respond?</p>
+
+<p>We believe this presents us with an opportunity to build a new community together, one grounded on a foundation of trust and mutual accountability. The anger, frustration, and fear that we are all feeling today is an important part of the process, but as a community, we have the opportunity to create a safer, more caring home away from home for all students.</p>
+
+<p>As the University of Virginia has led the way in higher education since its founding, we must also lead the way in bringing an end to these crimes.</p>
+
+<p>We ask that you stand with us in our redoubled efforts to build a better University. We also wish to thank the community for your continued support of our mission thus far.</p>
+
+<p>Finally, today, as with any other day, we stand with all survivors.</p>
+
+
+<p><a href="#" id="example11-hide" class="hideLink" onclick="showHide('example11');return false;"><strong>Click to hide content.</strong></a></p>
+      </div></div>
+
+<div class="span5"><p id="photo">
+
+<img src="https://s3.amazonaws.com/media.cav/9581_onelesso.jpg" alt="One Less" /></p><p id="content"></p><p class="bigtext"></p><p>
+
+FROM: One Less at U.Va.</p><p>
+
+TIME: Wednesday, Nov. 19 5:39 p.m.</p><p>
+
+One Less commends the bravery of the individuals who came forward and shared their personal stories. The accounts listed are a part of a national epidemic, for which UVa was just one example. It is up to each and every one of us to create a safe space for survivors to feel comfortable sharing their stories. We recognize the tremendous amount of courage it takes to do what these young women did, and implore the UVa community to honor their privacy and dignity. Today, as with every day, we stand with survivors in support, action, and love.</p><p dir="ltr" style="line-height:1;margin-top:0pt;margin-bottom:0pt;"></p></div>
+
+<div class="span5"><p id="photo">
+
+<img src="https://s3.amazonaws.com/media.cav/9604_z_letterp.jpg" alt="Z Society" /></p><p id="content"></p><p class="bigtext"></p><p>
+
+FROM: Z Society</p><p>
+
+TIME: Friday, Nov. 21 at 3:15 a.m.</p><p>
+
+<br />
+
+We are adrift. We have faced tragedy upon tragedy. We have been asked to contend with the inexplicable, with the horrendous, unfair. We are adrift&mdash;yet we drift together.&nbsp;</p><p><a href="#" id="example12-show" class="showLink" onclick="showHide('example12');return false;"><strong>Click to Read More</strong></a></p>
+
+<div id="example12" class="more">
+
+<p>Together, we share in the small solace of company, and we share in the ache of our sadness, and in the light of our hope that things will be better. We share in our anger and in our concern, but&mdash;what’s more&mdash;we share in the belief that our community can and must evolve.</p>
+
+
+<p>In times like these, we stand together. We say to each other: I am your support, just as you are mine. Today, and every day, may we stand emboldened by our capacity for love and inspired by our faith in what we can be, what we must be, what we will be. Though our path forward is unclear, we know that it is a path that we must go down together. All of us.</p>
+
+<p>Ours is a community with the capacity to achieve the astounding when its flame has been rightly kindled&mdash;and now must be a time of change.</p>
+
+<p>We find ourselves adrift, yet we drift together. Afraid, angry, confused, unsteady, uneasy, unsure &mdash;but together.</p>
+
+<p>At our symbol in the Amphitheatre, you will find a collection of flowers. Please take as many as you need to pass on to those who are in need&mdash;a friend, a roommate, a staff member, a neighbor, a stranger. May each flower find its own meaning for the person who receives it, and may we begin to shape the meaning of these tragedies in our community.</p>
+
+
+<p><a href="#" id="example12-hide" class="hideLink" onclick="showHide('example12');return false;"><strong>Click to hide content.</strong></a></p>
+      </div></div>
+
+<div class="span5"><p id="photo">
+
+<img src="https://s3.amazonaws.com/media.cav/9813_chairanddiro.jpg" alt="Chairs and Directors" /></p><p id="content"></p><p class="bigtext"></p><p>
+
+FROM: University Council of Chairs and Directors</p><p>
+
+TIME: 24 November, 2014</p><p>
+
+Dear Rector Martin, members of the Board of Visitors, President Sullivan, Provost Simon, Dean Baucom, Dean Groves, fellow faculty members, students, and alumni, We the undersigned members of the Council of Chairs and Directors in Arts and Sciences call for everyone in the University community to join forces to establish the University of Virginia as a leader in addressing the issues relating to sexual assault and alcohol abuse that plague universities and colleges across the nation.</p><p><a href="#" id="example13-show" class="showLink" onclick="showHide('example13');return false;"><strong>Click to Read More</strong></a></p>
+
+<div id="example13" class="more">
+
+<p>We call for a comprehensive restructuring of the conditions underlying the persistent culture of sexual assault and alcohol abuse at UVA in order to transform our culture into one more consistent with University ideals of gender equality,diversity, and social justice. We call for actions that collaboratively maximize the strengths of
+
+different parts of the community&mdash;students, faculty, staff, alumni, administrators, and members
+
+of the Board of Visitors. Among the many actions that this ongoing effort must entail, we urge
+
+attention to the following:</p>
+
+<p>
+
+1. Restructure the University’s “Terms and Conditions for Contracted Independent Organizations
+
+[CIOs] and Fraternal Organizations [FOs],” one of the primary purposes of which has been to
+
+establish a legal firewall between the University and its CIOs and FOs; and one of the primary
+
+effects of which has been to establish conditions of deniability concerning actions that take place
+
+in CIOs and FOs recognized by the University
+
+(https://policy.itc.virginia.edu/policy/policydisplay?id=STAF-002). The terms of agreement
+
+between the University and its CIOs and FOs should establish clear grounds for University
+
+oversight of these organizations; clear rules of accountability regarding CIO and FO adherence
+
+to local, state, and federal laws and University Standards of Conduct; and clear consequences for
+
+the violation of these laws and standards. The terms of agreement should also mandate the
+
+immediate suspension of activities of any CIO or FO that is under investigation for sexual
+
+assault.</p>
+
+<p>
+
+2. Establish policies at all levels and in all units of the University that treat sexual assault as a
+
+criminal offense and that provide trained independent victims’ advocates and legal counsel for
+
+survivors of sexual assault. Work with state legislators to adopt procedures through which
+
+universities and colleges in Virginia are required to develop rigorous and responsible policies
+
+involving sexual assault.</p>
+
+<p>
+3. Acknowledge and work to eradicate the pervasive binge drinking and alcohol abuse at UVA
+
+that are clearly linked to sexual assaults, alcohol poisoning, accidents, and deaths as well as
+
+longer-term physical, psychological, and sexual health problems for our students.
+
+219 Bryan Hall, P.O. Box 400121 • Charlottesville, VA 22904-4121</p>
+
+<p>
+
+Tel: 434-924-7105 • Fax: 434-924-1478 • TDD: 434-982-HEAR</p>
+
+<p>
+
+4. Fund a public history project that documents the history and culture of sexual assault at the
+
+University of Virginia and that produces an archive of survivors’ accounts of rape at UVA so
+
+that no one can ever again claim ignorance of the extent of its historical and current
+
+manifestations in our community. Use this resource center productively to inform ongoing
+
+efforts to reform the culture of sexual assault that pervades life at UVA and other university and
+
+college campuses.</p>
+
+<p>
+
+5. Dedicate significant on-going resources to support existing and emergent student, university,
+
+and community organizations that educate students, faculty, and administrators on these issues;
+
+that provide historical and ethnographic research documenting and analyzing the larger nationwide
+
+culture of sexual assault; that establish systems of peer mentoring (especially between first
+
+year and upper class women); and/or that work to change the culture of sexual assault and
+
+alcohol abuse at UVA.</p>
+
+<p>6. Create alternative, safe spaces for student residence and socialization that foster responsible
+
+and meaningful citizenship in the UVA community and beyond. Convene a group of students,
+
+faculty, and administrators to discuss the future of residential life at the university.
+
+<p>7. Reflect on our own actions and commitments in regard to the structures of inequality that
+
+underlie this ongoing crisis. Dedicate ourselves to creating an environment in which all our
+
+students can flourish.</p>
+<p>
+
+We look forward to working with other members of the UVA community on these pressing
+
+issues over the days, weeks, months, and years ahead.</p>
+
+<p><a href="#" id="example13-hide" class="hideLink" onclick="showHide('example13');return false;"><strong>Click to hide content.</strong></a></p>
+      </div></div>
+
+<div class="span5"><p id="photo">
+
+<img src="https://s3.amazonaws.com/media.cav/9588_facultyo.jpg" alt="Faculty" /></p><p id="content"></p><p class="bigtext"></p><p>
+
+FROM: Faculty, Staff, Students and Alumni</p><p>
+
+TIME: Thursday, Nov. 20</p><p>
+
+Dear President Sullivan,</p><p>
+
+We were all heartbroken and enraged to read yesterday's Rolling Stone article. The extreme violence that was reported is shocking and demands an unequivocal response that we will not tolerate violence against our students.</p><p>
+
+<a href="https://s3.amazonaws.com/media.cav/9723_letter_to_president_sullivan_as_of_22novo.pdf" target="_blank">1059 Faculty, Staff, and Students signed in support of this letter</a></p><p dir="ltr" style="line-height:1;margin-top:0pt;margin-bottom:0pt;"></p><p><a href="#" id="example14-show" class="showLink" onclick="showHide('example14');return false;"><strong>Click to Read More</strong></a></p>
+
+<div id="example14" class="more">
+
+<p>UVA faculty, staff and students have been debating how we might most effectively respond.</p>
+
+<p>
+
+As an initial step, we propose a policy that institutes an immediate freeze on activities by any student organizations that are currently under investigation for sexual misconduct and sexual assault.</p>
+
+<p>
+
+Further, we call on the Greek System to collectively and voluntarily suspend activities this weekend in light of recent events and out of respect for the victims of sexual violence on our campus.</p>
+
+<p>
+
+We believe this immediate action will be an important first step in sending the message that violence against our students will not be tolerated. It will also send a clear message to fraternities, that if they stand by and fail to intervene in violence, or if they knowingly do not report violence, the activities of your fraternity will be suspended.</p>
+
+<p>
+
+We look forward to seeing this important response implemented.</p>
+
+
+<p><a href="#" id="example14-hide" class="hideLink" onclick="showHide('example14');return false;"><strong>Click to hide content.</strong></a></p>
+      </div></div> 
+
+</body>
+</html>
